@@ -50,24 +50,26 @@ This program is written in C++, consists of:
 
 ### Usage:
         
-    This program has been tested both on Windows10 and Ubuntu22.04.
+This program has been tested both on Windows10 and Ubuntu22.04.
+```
+On Windows
 
-1. On Windows
         Use command: 
                     .\main_win.exe path_to_input_file
         to run the program, for example: 
                     .\main_win.exe examples\input\test1.txt
-        
         Use command: 
                     g++ -o main_win main.cpp Flatland.cpp Shape.cpp Particle.cpp
         to build the program.
+```
+```
+On Linux(Ubuntu)
 
-2. On Linux(Ubuntu)
         Use command: 
                     ./main_linux path_to_input_file
         to run the program, for example: 
                     ./main_linux examples/input/test1.txt
-
-        Use command: 
+        Use command:
                     g++ -o main_linux main.cpp Flatland.cpp Shape.cpp Particle.cpp
         to build the program.
+```

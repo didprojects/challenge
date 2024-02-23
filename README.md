@@ -8,9 +8,10 @@ A cartesian plane contains a set of stationary areas and a set of moving particl
 * Generate notifications on the standard output when a particle has entered or has left an area.
 * Also write the result into an output file.
 * The output is formatted:
+    ```
         ENTER <time> <particle name> <area name>
         EXIT <time> <particle name> <area name>
-
+    ```
 
 ### Methods:
     
